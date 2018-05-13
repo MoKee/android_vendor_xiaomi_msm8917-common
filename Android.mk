@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter land riva rolex santoni,$(TARGET_DEVICE)),)
+ifneq ($(filter riva rolex,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libgpustats
